@@ -78,6 +78,8 @@ table{
     border-color: var(--primary-color);
     border-radius: 10px;
     cursor: pointer;
+    font-size: large;
+    font-weight: bold;
 }
 #errorMsg{
     text-align: center;
