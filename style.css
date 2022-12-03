@@ -13,92 +13,133 @@ body {
   width: 100%;
 }
 
-table tr th,td{
-    word-wrap: normal;
-    width: 100%;
-    margin:1rem;
-    padding:0.5rem;
-    border: 2px var(--primary-color) solid;
-}
-table{
-    border: 2px var(--dark-gray) solid;
-    margin:1rem;
-    max-width: 392px;
-    width: 100%;
-}
-.heading{
-    text-align: center;
-    background-color: var(--primary-color);
-    color:var(--off-white);
-    padding: 1rem 0;
-    margin: 1rem;
-    max-width: 396px;
-    width: 100%;
-    border-radius: 0.5rem;
-}
-.description{
-    text-align: center;
-    color: var(--dark-gray);
-    background-color:var(--off-white);
-    padding: 2rem 0;
-    margin: 1rem;
-    max-width: 396px;
-    width: 100%;
-    border-radius: 0.5rem;
-}
-.input-label{
-    text-align: center;
-    display: inline-block;
-    background-color: var(--dark-gray);
-    color:var(--off-white);
-    padding: 1rem 0;
-    margin: 0.2rem 1rem;
-    max-width: 396px;
-    width: 100%;
-    border-radius: 10px;
-}
-.input{
-    text-align: center;  
-    padding: 0.7rem 0;
-    margin: 0.2rem 1rem;
-    max-width: 392px;
-    width: 100%;
-    border-radius: 10px;
+table tr th,
+td {
+  word-wrap: normal;
+  width: 100%;
+  margin: 1rem;
+  padding: 0.5rem;
+  border: 2px var(--primary-color) solid;
 }
 
-#checkNotes{
-    text-align: center;
-    background-color: var(--primary-color);
-    color:var(--off-white);
-    padding: 0.7rem 0;
-    margin: 0 1rem;
-    margin-top: 1rem;
-    max-width: 396px;
-    width: 100%;
-    border-color: var(--primary-color);
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: large;
-    font-weight: bold;
-}
-#errorMsg{
-    text-align: center;
-    max-width: 392px;
-    width: 100%;
-}
-h2{
-    text-align: center;
-    background-color: var(--primary-color);
-    color:var(--off-white);
-    padding: 1rem 0;
-    margin: 0 1rem;
-    border-radius: 0.5rem;
-    max-width: 392px;
-    width: 100%;
+table {
+  border: 2px var(--dark-gray) solid;
+  margin: 1rem;
+  max-width: 392px;
+  width: 100%;
 }
 
-hr{
-    max-width: 392px;
-    width: 100%;
-    background-color: var(--dark-gray);
+.heading {
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--off-white);
+  padding: 1rem 0;
+  margin: 1rem;
+  max-width: 396px;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.description {
+  text-align: center;
+  color: var(--dark-gray);
+  background-color: var(--off-white);
+  padding: 2rem 0;
+  margin: 1rem;
+  max-width: 396px;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.input-label {
+  text-align: center;
+  display: inline-block;
+  background-color: var(--dark-gray);
+  color: var(--off-white);
+  padding: 1rem 0;
+  margin: 0.2rem 1rem;
+  max-width: 396px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.input {
+  text-align: center;
+  padding: 0.7rem 0;
+  margin: 0.2rem 1rem;
+  max-width: 392px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#checkNotes {
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--off-white);
+  padding: 0.7rem 0;
+  margin: 0 1rem;
+  margin-top: 1rem;
+  max-width: 396px;
+  width: 100%;
+  border-color: var(--primary-color);
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+}
+
+#errorMsg {
+  text-align: center;
+  max-width: 392px;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--off-white);
+  padding: 1rem 0;
+  margin: 0 1rem;
+  border-radius: 0.5rem;
+  max-width: 392px;
+  width: 100%;
+}
+
+hr {
+  max-width: 392px;
+  width: 100%;
+  background-color: var(--dark-gray);
+}
+
+/** footers **/
+
+.footer {
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--off-white);
+  padding: 1rem 0;
+  margin: 1rem;
+  max-width: 396px;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.footer .link {
+  color: var(--off-white);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer .list-item-inline {
+  display: inline;
+  padding: 1rem;
+}
+
+ul {
+  padding-inline-start: 0px;
 }
