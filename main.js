@@ -7,6 +7,9 @@ const result = document.querySelectorAll(".whenAnyExceptionHide");
 
 const availableNotes = [2000,500,100,20,10,5,1];
 
+result[0].style.display = "none";
+result[1].style.display = "none";
+
 checkNotes.addEventListener("click", function validate(){
     const billAmount = Number(billAmt.value);
     const cashGiven = Number(cashG.value);
